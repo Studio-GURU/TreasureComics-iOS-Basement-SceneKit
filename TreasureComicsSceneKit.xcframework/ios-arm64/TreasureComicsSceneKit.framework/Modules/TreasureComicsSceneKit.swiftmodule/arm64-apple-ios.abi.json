@@ -1,0 +1,3791 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TreasureComicsSceneKit",
+    "printedName": "TreasureComicsSceneKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContentsKit",
+        "printedName": "ContentsKit",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "recommendationContentModel",
+            "printedName": "recommendationContentModel(signKey:idfa:isAdult:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureComicsSceneKit.ContentsKit.ContentDataResult<[TreasureComicsFoundationKit.RecommendationContentData]>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentDataResult",
+                    "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<[TreasureComicsFoundationKit.RecommendationContentData]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[TreasureComicsFoundationKit.RecommendationContentData]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RecommendationContentData",
+                            "printedName": "TreasureComicsFoundationKit.RecommendationContentData",
+                            "usr": "s:27TreasureComicsFoundationKit25RecommendationContentDataV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit08ContentsD0V26recommendationContentModel7signKey4idfa7isAdult17completionHandlerySS_SSSgSbSgyAC0G10DataResultOy_Say0ab10FoundationD0014RecommendationgP0VGGctFZ",
+            "mangledName": "$s22TreasureComicsSceneKit08ContentsD0V26recommendationContentModel7signKey4idfa7isAdult17completionHandlerySS_SSSgSbSgyAC0G10DataResultOy_Say0ab10FoundationD0014RecommendationgP0VGGctFZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recommendationContentText",
+            "printedName": "recommendationContentText(signKey:adid:isAdult:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureComicsSceneKit.ContentsKit.ContentDataResult<Swift.String>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentDataResult",
+                    "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit08ContentsD0V25recommendationContentText7signKey4adid7isAdult17completionHandlerySS_SSSgSbSgyAC0G10DataResultOy_SSGctFZ",
+            "mangledName": "$s22TreasureComicsSceneKit08ContentsD0V25recommendationContentText7signKey4adid7isAdult17completionHandlerySS_SSSgSbSgyAC0G10DataResultOy_SSGctFZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recentContentModel",
+            "printedName": "recentContentModel(signKey:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureComicsSceneKit.ContentsKit.ContentDataResult<[TreasureComicsFoundationKit.RecentContentData]>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentDataResult",
+                    "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<[TreasureComicsFoundationKit.RecentContentData]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[TreasureComicsFoundationKit.RecentContentData]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RecentContentData",
+                            "printedName": "TreasureComicsFoundationKit.RecentContentData",
+                            "usr": "s:27TreasureComicsFoundationKit17RecentContentDataV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit08ContentsD0V18recentContentModel7signKey17completionHandlerySS_yAC0G10DataResultOy_Say0ab10FoundationD006RecentgM0VGGctFZ",
+            "mangledName": "$s22TreasureComicsSceneKit08ContentsD0V18recentContentModel7signKey17completionHandlerySS_yAC0G10DataResultOy_Say0ab10FoundationD006RecentgM0VGGctFZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recentContentText",
+            "printedName": "recentContentText(signKey:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureComicsSceneKit.ContentsKit.ContentDataResult<Swift.String>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentDataResult",
+                    "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit08ContentsD0V17recentContentText7signKey17completionHandlerySS_yAC0G10DataResultOy_SSGctFZ",
+            "mangledName": "$s22TreasureComicsSceneKit08ContentsD0V17recentContentText7signKey17completionHandlerySS_yAC0G10DataResultOy_SSGctFZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ContentDataResult",
+            "printedName": "ContentDataResult",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "success",
+                "printedName": "success",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "GenericFunction",
+                    "printedName": "<τ_0_0> (TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>.Type) -> (τ_0_0) -> TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(τ_0_0) -> TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ContentDataResult",
+                            "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ContentDataResult",
+                            "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO7successyAEy_xGxcAGmlF",
+                "mangledName": "$s22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO7successyAEy_xGxcAGmlF",
+                "moduleName": "TreasureComicsSceneKit"
+              },
+              {
+                "kind": "Var",
+                "name": "failure",
+                "printedName": "failure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "GenericFunction",
+                    "printedName": "<τ_0_0> (TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>.Type) -> (Swift.Int, Swift.String) -> TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int, Swift.String) -> TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ContentDataResult",
+                            "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(status: Swift.Int, message: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ContentDataResult",
+                            "printedName": "TreasureComicsSceneKit.ContentsKit.ContentDataResult<τ_0_0>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO7failureyAEy_xGSi_SStcAGmlF",
+                "mangledName": "$s22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO7failureyAEy_xGSi_SStcAGmlF",
+                "moduleName": "TreasureComicsSceneKit"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO",
+            "mangledName": "$s22TreasureComicsSceneKit08ContentsD0V17ContentDataResultO",
+            "moduleName": "TreasureComicsSceneKit",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22TreasureComicsSceneKit08ContentsD0V",
+        "mangledName": "$s22TreasureComicsSceneKit08ContentsD0V",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MessageUI",
+        "printedName": "MessageUI",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeveloperKit",
+        "printedName": "DeveloperKit",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "notification",
+            "printedName": "notification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit09DeveloperD0C12notificationyyFZ",
+            "mangledName": "$s22TreasureComicsSceneKit09DeveloperD0C12notificationyyFZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificationSetting",
+            "printedName": "notificationSetting()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit09DeveloperD0C19notificationSettingyyFZ",
+            "mangledName": "$s22TreasureComicsSceneKit09DeveloperD0C19notificationSettingyyFZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webContrator",
+            "printedName": "webContrator(filePath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit09DeveloperD0C12webContrator8filePathySS_tFZ",
+            "mangledName": "$s22TreasureComicsSceneKit09DeveloperD0C12webContrator8filePathySS_tFZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(contentUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit09DeveloperD0C7webView10contentUrlySS_tFZ",
+            "mangledName": "$s22TreasureComicsSceneKit09DeveloperD0C7webView10contentUrlySS_tFZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22TreasureComicsSceneKit09DeveloperD0C",
+        "mangledName": "$s22TreasureComicsSceneKit09DeveloperD0C",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Profile",
+        "printedName": "Profile",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Gender",
+            "printedName": "Gender",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "male",
+                "printedName": "male",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureComicsSceneKit.Profile.Gender.Type) -> TreasureComicsSceneKit.Profile.Gender",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gender",
+                        "printedName": "TreasureComicsSceneKit.Profile.Gender",
+                        "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureComicsSceneKit.Profile.Gender.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Gender",
+                            "printedName": "TreasureComicsSceneKit.Profile.Gender",
+                            "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO4maleyA2EmF",
+                "mangledName": "$s22TreasureComicsSceneKit7ProfileV6GenderO4maleyA2EmF",
+                "moduleName": "TreasureComicsSceneKit"
+              },
+              {
+                "kind": "Var",
+                "name": "female",
+                "printedName": "female",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureComicsSceneKit.Profile.Gender.Type) -> TreasureComicsSceneKit.Profile.Gender",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gender",
+                        "printedName": "TreasureComicsSceneKit.Profile.Gender",
+                        "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureComicsSceneKit.Profile.Gender.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Gender",
+                            "printedName": "TreasureComicsSceneKit.Profile.Gender",
+                            "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO6femaleyA2EmF",
+                "mangledName": "$s22TreasureComicsSceneKit7ProfileV6GenderO6femaleyA2EmF",
+                "moduleName": "TreasureComicsSceneKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gender",
+                    "printedName": "TreasureComicsSceneKit.Profile.Gender",
+                    "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gender",
+                    "printedName": "TreasureComicsSceneKit.Profile.Gender",
+                    "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s22TreasureComicsSceneKit7ProfileV6GenderO2eeoiySbAE_AEtFZ",
+                "moduleName": "TreasureComicsSceneKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO9hashValueSivp",
+                "mangledName": "$s22TreasureComicsSceneKit7ProfileV6GenderO9hashValueSivp",
+                "moduleName": "TreasureComicsSceneKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO9hashValueSivg",
+                    "mangledName": "$s22TreasureComicsSceneKit7ProfileV6GenderO9hashValueSivg",
+                    "moduleName": "TreasureComicsSceneKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s22TreasureComicsSceneKit7ProfileV6GenderO4hash4intoys6HasherVz_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO",
+            "mangledName": "$s22TreasureComicsSceneKit7ProfileV6GenderO",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(signKey:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "TreasureComicsSceneKit.Profile.Builder",
+                    "usr": "s:22TreasureComicsSceneKit7ProfileV7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:22TreasureComicsSceneKit7ProfileV7BuilderC7signKeyAESS_tcfc",
+                "mangledName": "$s22TreasureComicsSceneKit7ProfileV7BuilderC7signKeyAESS_tcfc",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "withGender",
+                "printedName": "withGender(gender:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "TreasureComicsSceneKit.Profile.Builder",
+                    "usr": "s:22TreasureComicsSceneKit7ProfileV7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TreasureComicsSceneKit.Profile.Gender?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gender",
+                        "printedName": "TreasureComicsSceneKit.Profile.Gender",
+                        "usr": "s:22TreasureComicsSceneKit7ProfileV6GenderO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit7ProfileV7BuilderC10withGender6genderAeC0H0OSg_tF",
+                "mangledName": "$s22TreasureComicsSceneKit7ProfileV7BuilderC10withGender6genderAeC0H0OSg_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withBirthYear",
+                "printedName": "withBirthYear(birthYear:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "TreasureComicsSceneKit.Profile.Builder",
+                    "usr": "s:22TreasureComicsSceneKit7ProfileV7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit7ProfileV7BuilderC13withBirthYear05birthI0AESiSg_tF",
+                "mangledName": "$s22TreasureComicsSceneKit7ProfileV7BuilderC13withBirthYear05birthI0AESiSg_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "register",
+                "printedName": "register(completionHandler:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit7ProfileV7BuilderC8register17completionHandleryySb_SStc_tF",
+                "mangledName": "$s22TreasureComicsSceneKit7ProfileV7BuilderC8register17completionHandleryySb_SStc_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:22TreasureComicsSceneKit7ProfileV7BuilderC",
+            "mangledName": "$s22TreasureComicsSceneKit7ProfileV7BuilderC",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22TreasureComicsSceneKit7ProfileV",
+        "mangledName": "$s22TreasureComicsSceneKit7ProfileV",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LauncherKit",
+        "printedName": "LauncherKit",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "TreasureComicsSceneKit.LauncherKit.Builder",
+                    "usr": "s:22TreasureComicsSceneKit08LauncherD0C7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:22TreasureComicsSceneKit08LauncherD0C7BuilderCAEycfc",
+                "mangledName": "$s22TreasureComicsSceneKit08LauncherD0C7BuilderCAEycfc",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "withHeader",
+                "printedName": "withHeader(headerModel:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SceneHeaderModel",
+                    "printedName": "TreasureComicsSceneKit.SceneHeaderModel",
+                    "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit08LauncherD0C7BuilderC10withHeader11headerModelAEXDAA0chJ0C_tF",
+                "mangledName": "$s22TreasureComicsSceneKit08LauncherD0C7BuilderC10withHeader11headerModelAEXDAA0chJ0C_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withAdvertisingId",
+                "printedName": "withAdvertisingId(advertisingId:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit08LauncherD0C7BuilderC17withAdvertisingId011advertisingI0AEXDSS_tF",
+                "mangledName": "$s22TreasureComicsSceneKit08LauncherD0C7BuilderC17withAdvertisingId011advertisingI0AEXDSS_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withReplaceLink",
+                "printedName": "withReplaceLink(replaceLink:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit08LauncherD0C7BuilderC15withReplaceLink07replaceI0AEXDSS_tF",
+                "mangledName": "$s22TreasureComicsSceneKit08LauncherD0C7BuilderC15withReplaceLink07replaceI0AEXDSS_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LauncherKit",
+                    "printedName": "TreasureComicsSceneKit.LauncherKit",
+                    "usr": "s:22TreasureComicsSceneKit08LauncherD0C"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit08LauncherD0C7BuilderC5buildACyF",
+                "mangledName": "$s22TreasureComicsSceneKit08LauncherD0C7BuilderC5buildACyF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:22TreasureComicsSceneKit08LauncherD0C7BuilderC",
+            "mangledName": "$s22TreasureComicsSceneKit08LauncherD0C7BuilderC",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit08LauncherD0C6launch17completionHandleryySb_SStc_tF",
+            "mangledName": "$s22TreasureComicsSceneKit08LauncherD0C6launch17completionHandleryySb_SStc_tF",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchWithViewController",
+            "printedName": "launchWithViewController(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit08LauncherD0C24launchWithViewController_17completionHandlerySo06UIViewI0C_ySb_SStctF",
+            "mangledName": "$s22TreasureComicsSceneKit08LauncherD0C24launchWithViewController_17completionHandlerySo06UIViewI0C_ySb_SStctF",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22TreasureComicsSceneKit08LauncherD0C",
+        "mangledName": "$s22TreasureComicsSceneKit08LauncherD0C",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SceneHeaderModel",
+        "printedName": "SceneHeaderModel",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "CustomBuilder",
+            "printedName": "CustomBuilder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomBuilder",
+                    "printedName": "TreasureComicsSceneKit.SceneHeaderModel.CustomBuilder",
+                    "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13CustomBuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13CustomBuilderCAEycfc",
+                "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13CustomBuilderCAEycfc",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "withView",
+                "printedName": "withView(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewSceneHeader",
+                    "printedName": "TreasureComicsSceneKit.UIViewSceneHeader",
+                    "usr": "c:@M@TreasureComicsSceneKit@objc(cs)UIViewSceneHeader"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13CustomBuilderC8withViewyAEXDAA06UIViewcE0CF",
+                "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13CustomBuilderC8withViewyAEXDAA06UIViewcE0CF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SceneHeaderModel",
+                    "printedName": "TreasureComicsSceneKit.SceneHeaderModel",
+                    "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13CustomBuilderC5buildACyF",
+                "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13CustomBuilderC5buildACyF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13CustomBuilderC",
+            "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13CustomBuilderC",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "PresetBuilder",
+            "printedName": "PresetBuilder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetBuilder",
+                    "printedName": "TreasureComicsSceneKit.SceneHeaderModel.PresetBuilder",
+                    "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderCAEycfc",
+                "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderCAEycfc",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "withTitle",
+                "printedName": "withTitle(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC9withTitleyAEXDSSF",
+                "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC9withTitleyAEXDSSF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withUseBackButton",
+                "printedName": "withUseBackButton(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC17withUseBackButtonyAEXDSbF",
+                "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC17withUseBackButtonyAEXDSbF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withUseCloseButton",
+                "printedName": "withUseCloseButton(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC18withUseCloseButtonyAEXDSbF",
+                "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC18withUseCloseButtonyAEXDSbF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SceneHeaderModel",
+                    "printedName": "TreasureComicsSceneKit.SceneHeaderModel",
+                    "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC5buildACyF",
+                "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC5buildACyF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC",
+            "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC13PresetBuilderC",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22TreasureComicsSceneKit0C11HeaderModelC",
+        "mangledName": "$s22TreasureComicsSceneKit0C11HeaderModelC",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isInit",
+            "printedName": "isInit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22TreasureComicsSceneKit0cD0V6isInitSbvpZ",
+            "mangledName": "$s22TreasureComicsSceneKit0cD0V6isInitSbvpZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22TreasureComicsSceneKit0cD0V6isInitSbvgZ",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V6isInitSbvgZ",
+                "moduleName": "TreasureComicsSceneKit",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Environment",
+            "printedName": "Environment",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "develop",
+                "printedName": "develop",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureComicsSceneKit.SceneKit.Environment.Type) -> TreasureComicsSceneKit.SceneKit.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Environment",
+                        "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "TreasureComicsSceneKit.SceneKit.Environment",
+                            "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO7developyA2EmF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V11EnvironmentO7developyA2EmF",
+                "moduleName": "TreasureComicsSceneKit"
+              },
+              {
+                "kind": "Var",
+                "name": "test",
+                "printedName": "test",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureComicsSceneKit.SceneKit.Environment.Type) -> TreasureComicsSceneKit.SceneKit.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Environment",
+                        "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "TreasureComicsSceneKit.SceneKit.Environment",
+                            "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO4testyA2EmF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V11EnvironmentO4testyA2EmF",
+                "moduleName": "TreasureComicsSceneKit"
+              },
+              {
+                "kind": "Var",
+                "name": "live",
+                "printedName": "live",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureComicsSceneKit.SceneKit.Environment.Type) -> TreasureComicsSceneKit.SceneKit.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Environment",
+                        "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "TreasureComicsSceneKit.SceneKit.Environment",
+                            "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO4liveyA2EmF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V11EnvironmentO4liveyA2EmF",
+                "moduleName": "TreasureComicsSceneKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "TreasureComicsSceneKit.SceneKit.Environment",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "TreasureComicsSceneKit.SceneKit.Environment",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V11EnvironmentO2eeoiySbAE_AEtFZ",
+                "moduleName": "TreasureComicsSceneKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO9hashValueSivp",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V11EnvironmentO9hashValueSivp",
+                "moduleName": "TreasureComicsSceneKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO9hashValueSivg",
+                    "mangledName": "$s22TreasureComicsSceneKit0cD0V11EnvironmentO9hashValueSivg",
+                    "moduleName": "TreasureComicsSceneKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V11EnvironmentO4hash4intoys6HasherVz_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO",
+            "mangledName": "$s22TreasureComicsSceneKit0cD0V11EnvironmentO",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Membership",
+            "printedName": "Membership",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "basic",
+                "printedName": "basic",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureComicsSceneKit.SceneKit.Membership.Type) -> TreasureComicsSceneKit.SceneKit.Membership",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Membership",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Membership",
+                        "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Membership.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Membership",
+                            "printedName": "TreasureComicsSceneKit.SceneKit.Membership",
+                            "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO5basicyA2EmF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V10MembershipO5basicyA2EmF",
+                "moduleName": "TreasureComicsSceneKit"
+              },
+              {
+                "kind": "Var",
+                "name": "channeling",
+                "printedName": "channeling",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureComicsSceneKit.SceneKit.Membership.Type) -> TreasureComicsSceneKit.SceneKit.Membership",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Membership",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Membership",
+                        "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureComicsSceneKit.SceneKit.Membership.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Membership",
+                            "printedName": "TreasureComicsSceneKit.SceneKit.Membership",
+                            "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO10channelingyA2EmF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V10MembershipO10channelingyA2EmF",
+                "moduleName": "TreasureComicsSceneKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Membership",
+                    "printedName": "TreasureComicsSceneKit.SceneKit.Membership",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Membership",
+                    "printedName": "TreasureComicsSceneKit.SceneKit.Membership",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V10MembershipO2eeoiySbAE_AEtFZ",
+                "moduleName": "TreasureComicsSceneKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO9hashValueSivp",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V10MembershipO9hashValueSivp",
+                "moduleName": "TreasureComicsSceneKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO9hashValueSivg",
+                    "mangledName": "$s22TreasureComicsSceneKit0cD0V10MembershipO9hashValueSivg",
+                    "moduleName": "TreasureComicsSceneKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V10MembershipO4hash4intoys6HasherVz_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO",
+            "mangledName": "$s22TreasureComicsSceneKit0cD0V10MembershipO",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(appId:appSecret:membership:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "TreasureComicsSceneKit.SceneKit.Builder",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Membership",
+                    "printedName": "TreasureComicsSceneKit.SceneKit.Membership",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V10MembershipO"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:22TreasureComicsSceneKit0cD0V7BuilderC5appId0F6Secret10membershipAESS_SSAC10MembershipOtcfc",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V7BuilderC5appId0F6Secret10membershipAESS_SSAC10MembershipOtcfc",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "withAllowLog",
+                "printedName": "withAllowLog(allow:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0cD0V7BuilderC12withAllowLog5allowAEXDSb_tF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V7BuilderC12withAllowLog5allowAEXDSb_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withEnvironment",
+                "printedName": "withEnvironment(environment:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "TreasureComicsSceneKit.SceneKit.Environment",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V11EnvironmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0cD0V7BuilderC15withEnvironment11environmentAEXDAC0G0O_tF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V7BuilderC15withEnvironment11environmentAEXDAC0G0O_tF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SceneKit",
+                    "printedName": "TreasureComicsSceneKit.SceneKit",
+                    "usr": "s:22TreasureComicsSceneKit0cD0V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22TreasureComicsSceneKit0cD0V7BuilderC5buildACyF",
+                "mangledName": "$s22TreasureComicsSceneKit0cD0V7BuilderC5buildACyF",
+                "moduleName": "TreasureComicsSceneKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:22TreasureComicsSceneKit0cD0V7BuilderC",
+            "mangledName": "$s22TreasureComicsSceneKit0cD0V7BuilderC",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit0cD0V10initializeyyF",
+            "mangledName": "$s22TreasureComicsSceneKit0cD0V10initializeyyF",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dispose",
+            "printedName": "dispose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22TreasureComicsSceneKit0cD0V7disposeyyFZ",
+            "mangledName": "$s22TreasureComicsSceneKit0cD0V7disposeyyFZ",
+            "moduleName": "TreasureComicsSceneKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22TreasureComicsSceneKit0cD0V",
+        "mangledName": "$s22TreasureComicsSceneKit0cD0V",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewSceneHeader",
+        "printedName": "UIViewSceneHeader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sceneUIViewController",
+            "printedName": "sceneUIViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22TreasureComicsSceneKit06UIViewC6HeaderC05sceneE10ControllerSo0eH0CSgvp",
+            "mangledName": "$s22TreasureComicsSceneKit06UIViewC6HeaderC05sceneE10ControllerSo0eH0CSgvp",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22TreasureComicsSceneKit06UIViewC6HeaderC05sceneE10ControllerSo0eH0CSgvg",
+                "mangledName": "$s22TreasureComicsSceneKit06UIViewC6HeaderC05sceneE10ControllerSo0eH0CSgvg",
+                "moduleName": "TreasureComicsSceneKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sceneWebView",
+            "printedName": "sceneWebView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22TreasureComicsSceneKit06UIViewC6HeaderC12sceneWebViewSo05WKWebI0CSgvp",
+            "mangledName": "$s22TreasureComicsSceneKit06UIViewC6HeaderC12sceneWebViewSo05WKWebI0CSgvp",
+            "moduleName": "TreasureComicsSceneKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22TreasureComicsSceneKit06UIViewC6HeaderC12sceneWebViewSo05WKWebI0CSgvg",
+                "mangledName": "$s22TreasureComicsSceneKit06UIViewC6HeaderC12sceneWebViewSo05WKWebI0CSgvg",
+                "moduleName": "TreasureComicsSceneKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewSceneHeader",
+                "printedName": "TreasureComicsSceneKit.UIViewSceneHeader",
+                "usr": "c:@M@TreasureComicsSceneKit@objc(cs)UIViewSceneHeader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TreasureComicsSceneKit@objc(cs)UIViewSceneHeader(im)initWithFrame:",
+            "mangledName": "$s22TreasureComicsSceneKit06UIViewC6HeaderC5frameACSo6CGRectV_tcfc",
+            "moduleName": "TreasureComicsSceneKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TreasureComicsSceneKit.UIViewSceneHeader?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewSceneHeader",
+                    "printedName": "TreasureComicsSceneKit.UIViewSceneHeader",
+                    "usr": "c:@M@TreasureComicsSceneKit@objc(cs)UIViewSceneHeader"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TreasureComicsSceneKit@objc(cs)UIViewSceneHeader(im)initWithCoder:",
+            "mangledName": "$s22TreasureComicsSceneKit06UIViewC6HeaderC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TreasureComicsSceneKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TreasureComicsSceneKit@objc(cs)UIViewSceneHeader",
+        "mangledName": "$s22TreasureComicsSceneKit06UIViewC6HeaderC",
+        "moduleName": "TreasureComicsSceneKit",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsSceneKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2070,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8311,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11106,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13367,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13503,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13630,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13732,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13829,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13861,
+      "length": 11,
+      "value": "\"보물섬\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13899,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13971,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13977,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13987,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13999,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14091,
+      "length": 11,
+      "value": "\"home-back\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14344,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14456,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14460,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14523,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14529,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14539,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14551,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14645,
+      "length": 12,
+      "value": "\"home-close\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14901,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15015,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15019,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContentView.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 16,
+      "value": "\"WebContentView\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContentView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 512,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContentView.swift",
+      "kind": "Dictionary",
+      "offset": 13750,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Profile.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 17,
+      "value": "\"Profile.Builder\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+Behavior.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+Behavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 614,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1945,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2007,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2742,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4604,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7605,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7733,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7976,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8073,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8105,
+      "length": 11,
+      "value": "\"보물섬\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8143,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8213,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8223,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8235,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8332,
+      "length": 18,
+      "value": "\"chevron.backward\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8559,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8671,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8675,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8730,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8736,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8746,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8758,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8857,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9075,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9189,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneContratorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9193,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneBrowserViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2274,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/SceneHeaderModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1689,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/SceneHeaderModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1744,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/SceneKit.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 18,
+      "value": "\"SceneKit.Builder\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/SceneKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1487,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContentContract.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1054,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContentContract.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1073,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2127,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8292,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10745,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13006,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13142,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13385,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13482,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13514,
+      "length": 11,
+      "value": "\"보물섬\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13552,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13624,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13630,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13640,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13652,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13744,
+      "length": 11,
+      "value": "\"home-back\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13997,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14109,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14113,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14176,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14182,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14192,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14204,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14298,
+      "length": 12,
+      "value": "\"home-close\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14554,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14668,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14672,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14894,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14909,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14974,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Scene\/XSceneDeveloperViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14989,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 12,
+      "value": "\"openWindow\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 13,
+      "value": "\"closeWindow\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 16,
+      "value": "\"openWebBrowser\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 19,
+      "value": "\"openOutWebBrowser\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 18,
+      "value": "\"postNotification\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 14,
+      "value": "\"postPurchase\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 22,
+      "value": "\"postPurchaseRevision\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 543,
+      "length": 11,
+      "value": "\"postSpeak\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Basement\/TreasureComicsScene\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 580,
+      "length": 15,
+      "value": "\"getDeviceADID\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Library\/Developer\/Xcode\/DerivedData\/TreasureComics.iOS-cghhzgvlknqtjdaoyewunddopubg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TreasureComicsSceneKit\/IntermediateBuildFilesPath\/TreasureComicsSceneKit.build\/Release-iphoneos\/TreasureComicsSceneKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 14,
+      "value": "\"history-back\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Library\/Developer\/Xcode\/DerivedData\/TreasureComics.iOS-cghhzgvlknqtjdaoyewunddopubg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TreasureComicsSceneKit\/IntermediateBuildFilesPath\/TreasureComicsSceneKit.build\/Release-iphoneos\/TreasureComicsSceneKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 889,
+      "length": 17,
+      "value": "\"history-forward\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Library\/Developer\/Xcode\/DerivedData\/TreasureComics.iOS-cghhzgvlknqtjdaoyewunddopubg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TreasureComicsSceneKit\/IntermediateBuildFilesPath\/TreasureComicsSceneKit.build\/Release-iphoneos\/TreasureComicsSceneKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 11,
+      "value": "\"home-back\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Library\/Developer\/Xcode\/DerivedData\/TreasureComics.iOS-cghhzgvlknqtjdaoyewunddopubg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TreasureComicsSceneKit\/IntermediateBuildFilesPath\/TreasureComicsSceneKit.build\/Release-iphoneos\/TreasureComicsSceneKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1173,
+      "length": 12,
+      "value": "\"home-close\""
+    }
+  ]
+}

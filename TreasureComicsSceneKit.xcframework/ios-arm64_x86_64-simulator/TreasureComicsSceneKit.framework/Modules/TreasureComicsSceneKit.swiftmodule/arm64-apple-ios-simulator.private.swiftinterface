@@ -1,0 +1,126 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TreasureComicsSceneKit
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import DeveloperToolsSupport
+import Foundation
+import MessageUI
+import Swift
+import SwiftUI
+import TreasureComicsFoundationKit
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct ContentsKit {
+  public static func recommendationContentModel(signKey: Swift.String, idfa: Swift.String? = nil, isAdult: Swift.Bool? = nil, completionHandler: @escaping (TreasureComicsSceneKit.ContentsKit.ContentDataResult<[TreasureComicsFoundationKit.RecommendationContentData]>) -> Swift.Void)
+  public static func recommendationContentText(signKey: Swift.String, adid: Swift.String? = nil, isAdult: Swift.Bool? = nil, completionHandler: @escaping (TreasureComicsSceneKit.ContentsKit.ContentDataResult<Swift.String>) -> Swift.Void)
+  public static func recentContentModel(signKey: Swift.String, completionHandler: @escaping (TreasureComicsSceneKit.ContentsKit.ContentDataResult<[TreasureComicsFoundationKit.RecentContentData]>) -> Swift.Void)
+  public static func recentContentText(signKey: Swift.String, completionHandler: @escaping (TreasureComicsSceneKit.ContentsKit.ContentDataResult<Swift.String>) -> Swift.Void)
+  public enum ContentDataResult<T> {
+    case success(T)
+    case failure(status: Swift.Int, message: Swift.String)
+  }
+}
+@_hasMissingDesignatedInitializers public class DeveloperKit {
+  public static func notification()
+  public static func notificationSetting()
+  public static func webContrator(filePath: Swift.String)
+  public static func webView(contentUrl: Swift.String)
+  @objc deinit
+}
+public struct Profile {
+  public enum Gender {
+    case male, female
+    public static func == (a: TreasureComicsSceneKit.Profile.Gender, b: TreasureComicsSceneKit.Profile.Gender) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public class Builder {
+    public init(signKey: Swift.String)
+    public func withGender(gender: TreasureComicsSceneKit.Profile.Gender?) -> TreasureComicsSceneKit.Profile.Builder
+    public func withBirthYear(birthYear: Swift.Int?) -> TreasureComicsSceneKit.Profile.Builder
+    public func register(completionHandler: @escaping (_ success: Swift.Bool, _ message: Swift.String) -> Swift.Void)
+    @objc deinit
+  }
+}
+@_hasMissingDesignatedInitializers public class LauncherKit {
+  public class Builder {
+    public init()
+    public func withHeader(headerModel: TreasureComicsSceneKit.SceneHeaderModel) -> Self
+    public func withAdvertisingId(advertisingId: Swift.String) -> Self
+    public func withReplaceLink(replaceLink: Swift.String) -> Self
+    public func build() -> TreasureComicsSceneKit.LauncherKit
+    @objc deinit
+  }
+  public func launch(completionHandler: @escaping (_ success: Swift.Bool, _ message: Swift.String) -> Swift.Void)
+  public func launchWithViewController(_ rootViewController: UIKit.UIViewController, completionHandler: @escaping (_ success: Swift.Bool, _ message: Swift.String) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SceneHeaderModel {
+  public class CustomBuilder {
+    public init()
+    public func withView(_ view: TreasureComicsSceneKit.UIViewSceneHeader) -> Self
+    public func build() -> TreasureComicsSceneKit.SceneHeaderModel
+    @objc deinit
+  }
+  public class PresetBuilder {
+    public init()
+    public func withTitle(_ title: Swift.String) -> Self
+    public func withUseBackButton(_ use: Swift.Bool) -> Self
+    public func withUseCloseButton(_ use: Swift.Bool) -> Self
+    public func build() -> TreasureComicsSceneKit.SceneHeaderModel
+    @objc deinit
+  }
+  @objc deinit
+}
+public struct SceneKit {
+  public static var isInit: Swift.Bool {
+    get
+  }
+  public enum Environment {
+    case develop, test, live
+    public static func == (a: TreasureComicsSceneKit.SceneKit.Environment, b: TreasureComicsSceneKit.SceneKit.Environment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Membership {
+    case basic, channeling
+    public static func == (a: TreasureComicsSceneKit.SceneKit.Membership, b: TreasureComicsSceneKit.SceneKit.Membership) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public class Builder {
+    public init(appId: Swift.String, appSecret: Swift.String, membership: TreasureComicsSceneKit.SceneKit.Membership)
+    public func withAllowLog(allow: Swift.Bool) -> Self
+    public func withEnvironment(environment: TreasureComicsSceneKit.SceneKit.Environment) -> Self
+    public func build() -> TreasureComicsSceneKit.SceneKit
+    @objc deinit
+  }
+  public func initialize()
+  public static func dispose()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class UIViewSceneHeader : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var sceneUIViewController: UIKit.UIViewController? {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var sceneWebView: WebKit.WKWebView? {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension TreasureComicsSceneKit.Profile.Gender : Swift.Equatable {}
+extension TreasureComicsSceneKit.Profile.Gender : Swift.Hashable {}
+extension TreasureComicsSceneKit.SceneKit.Environment : Swift.Equatable {}
+extension TreasureComicsSceneKit.SceneKit.Environment : Swift.Hashable {}
+extension TreasureComicsSceneKit.SceneKit.Membership : Swift.Equatable {}
+extension TreasureComicsSceneKit.SceneKit.Membership : Swift.Hashable {}
