@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/TreasureComicsSceneKit.framework/Info.plist</key>
 		<data>
-		VKWadn/cbuiE8vR2HdvR4l0t+/c=
+		qWOzNtBhPW/k1XuMF/5J4wgiClg=
 		</data>
 		<key>ios-arm64/TreasureComicsSceneKit.framework/Modules/TreasureComicsSceneKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -34,11 +34,7 @@
 		</data>
 		<key>ios-arm64/TreasureComicsSceneKit.framework/TreasureComicsSceneKit</key>
 		<data>
-		XjPT0wPHgFl1qVYgB/wIkUV1sGw=
-		</data>
-		<key>ios-arm64/TreasureComicsSceneKit.framework/_CodeSignature/CodeResources</key>
-		<data>
-		rG8VdDBFIaeGP5CQ5mBF/N6YdXM=
+		1JniUFlS5Hcotnu7wm1cjZdJGKU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureComicsSceneKit.framework/Assets.car</key>
 		<data>
@@ -46,7 +42,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureComicsSceneKit.framework/Info.plist</key>
 		<data>
-		xFmKcKmB1LaEG/f6rWblzbgtXKY=
+		T16BNXeIUxhbUlacZzgLnEpWu/4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureComicsSceneKit.framework/Modules/TreasureComicsSceneKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -86,11 +82,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureComicsSceneKit.framework/TreasureComicsSceneKit</key>
 		<data>
-		EjxoRi/Y3qG+c6bBMaSJnjlT1tY=
+		id5phPbyHhj0AEl37fpRMXTtnS4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureComicsSceneKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tWwxERxU+MfHGiYLznEQTtK9p08=
+		7fvEQoRxAM13YxOjjupvAdREvCA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -110,11 +106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VKWadn/cbuiE8vR2HdvR4l0t+/c=
+			qWOzNtBhPW/k1XuMF/5J4wgiClg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MgbOGS72XZ+qS51ywoqheif2MtdAhxgJigXHRIihA18=
+			gF3QLDXR9fbFiW0/9WmLrKMfr7gzsH68Oi0CTPXUS04=
 			</data>
 		</dict>
 		<key>ios-arm64/TreasureComicsSceneKit.framework/Modules/TreasureComicsSceneKit.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -176,22 +172,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XjPT0wPHgFl1qVYgB/wIkUV1sGw=
+			1JniUFlS5Hcotnu7wm1cjZdJGKU=
 			</data>
 			<key>hash2</key>
 			<data>
-			g4OJd6M4tV/QNmO/syLqeDJO06kpD85/sbIaDjWjN8o=
-			</data>
-		</dict>
-		<key>ios-arm64/TreasureComicsSceneKit.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rG8VdDBFIaeGP5CQ5mBF/N6YdXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			sdoZs1DGPZ11wzPGOL866d7OlGp0gfl3lYUuZubQgTs=
+			rJMkpx/7UrxntP7ZT+CAB5Q//MMyB18/s7Fikc97PAs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TreasureComicsSceneKit.framework/Assets.car</key>
@@ -209,11 +194,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xFmKcKmB1LaEG/f6rWblzbgtXKY=
+			T16BNXeIUxhbUlacZzgLnEpWu/4=
 			</data>
 			<key>hash2</key>
 			<data>
-			snrUjXAe4kGMtB+unP+iRZwqHuxMt5dSM3oMWyxMUjE=
+			2DBp5u3OLjTrlGmIrisdMouLBjNbC+GUkFvnOxbX4lI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TreasureComicsSceneKit.framework/Modules/TreasureComicsSceneKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -319,22 +304,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EjxoRi/Y3qG+c6bBMaSJnjlT1tY=
+			id5phPbyHhj0AEl37fpRMXTtnS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			g6RhfivWZ4HdZeIxQccYPTRVTgOQIeWVhQA7U4x/kuU=
+			D3oR2qaHEVjScEf9IHM0YE3T8GyQjGKMGcqLstjVVSQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TreasureComicsSceneKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tWwxERxU+MfHGiYLznEQTtK9p08=
+			7fvEQoRxAM13YxOjjupvAdREvCA=
 			</data>
 			<key>hash2</key>
 			<data>
-			qaT4xuk4+2wiyU5M6Dx9y/MirdH8eqNhGhSKlShGBvU=
+			s05YQWsTWHzgztyHw7aY4wb9QzNVrASgMZvPeppqpT0=
 			</data>
 		</dict>
 	</dict>
